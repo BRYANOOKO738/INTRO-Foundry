@@ -9,6 +9,7 @@ contract CounterTest is Test {
 
     function setUp() external {
         Hello = new Counter();
+        
     }
 
     function testInc() public {
